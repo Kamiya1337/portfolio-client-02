@@ -12,7 +12,7 @@ export default function HomeTab() {
           <span className="section-kicker">Portfolio / Digital & AI Learning</span>
           <h1 className="mt-5 text-3xl font-extrabold leading-[1.08] tracking-tight text-academic-ink sm:text-4xl md:text-6xl">
             Portfolio học phần —<br />
-            <span className="text-academic-deep-rose">{student.name}</span>
+            <span className="text-academic-ink">{student.name}</span>
           </h1>
           <p className="mt-5 text-lg font-semibold text-academic-muted sm:text-xl md:text-2xl">
             English Language & Culture Learning Portfolio
@@ -20,12 +20,13 @@ export default function HomeTab() {
           <p className="mt-8 max-w-3xl text-base leading-8 text-academic-muted md:text-lg">{student.bio}</p>
         </div>
 
-        <div className="mt-12 grid gap-6 border-t border-academic-border pt-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 border-t border-academic-border pt-8 sm:grid-cols-2 lg:grid-cols-5">
           {[
             ['Trường', 'ULIS - VNU'],
             ['Ngành', 'Ngôn ngữ và Văn hóa Anh'],
             ['Học phần', 'Công nghệ số & Ứng dụng AI'],
             ['Sinh viên', student.name],
+            ['Mã sinh viên', '25040434'],
           ].map(([label, value]) => (
             <div key={label}>
               <span className="section-kicker">{label}</span>

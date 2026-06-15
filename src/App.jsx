@@ -56,7 +56,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-academic-background text-academic-ink">
+    <div className="min-h-screen overflow-x-hidden bg-white text-academic-ink">
       <header className="sticky top-0 z-50 border-b border-academic-border/80 bg-academic-background/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-3 py-3 sm:flex-nowrap sm:gap-4 sm:px-5 md:px-10">
           <a href="#top" className="flex min-w-0 items-center gap-3" aria-label="Về đầu trang">

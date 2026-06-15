@@ -97,11 +97,11 @@ export default function ProjectsTab() {
 
       {selectedProject && (
         <article className="soft-card soft-pink-glow overflow-hidden rounded-3xl bg-white">
-          <div className="bg-academic-deep-rose p-7 text-black md:p-10">
-            <button type="button" onClick={() => setSelectedProject(null)} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/35 px-4 py-2 text-sm font-bold text-black transition hover:bg-white hover:text-[#BE185D]">
+          <div className="bg-academic-blush p-7 text-black md:p-10">
+            <button type="button" onClick={() => setSelectedProject(null)} className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/35 px-4 py-2 text-sm font-bold text-black transition hover:bg-white hover:text-academic-deep-rose">
               <ArrowLeft size={17} /> Trở lại 6 case
             </button>
-            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#BE185D]/80">Case {String(selectedProject.id).padStart(2, '0')} · {selectedProject.chapter}</p>
+            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-black/80">Case {String(selectedProject.id).padStart(2, '0')} · {selectedProject.chapter}</p>
             <h3 className="mt-3 max-w-4xl text-3xl font-extrabold leading-tight md:text-4xl">{selectedProject.title}</h3>
             <p className="mt-4 max-w-3xl text-base leading-7 text-black/85">{selectedProject.shortDesc}</p>
           </div>
@@ -148,7 +148,7 @@ export default function ProjectsTab() {
               <p className="mt-3 flex-1 text-sm leading-6 text-academic-muted">{project.shortDesc}</p>
               <div className="mt-5 flex flex-wrap gap-2">{project.skills?.slice(0, 3).map((skill) => <span className="tag" key={skill}>{skill}</span>)}</div>
               <div className="mt-6 flex items-center justify-between border-t border-academic-border pt-5">
-                <button type="button" onClick={() => setSelectedProject(project)} className="soft-pink-glow rounded-full bg-academic-deep-rose px-4 py-2 text-sm font-bold text-academic-rose transition hover:bg-academic-rose">Xem chi tiết</button>
+                <button type="button" onClick={() => setSelectedProject(project)} className="soft-pink-glow rounded-full bg-academic-deep-rose px-4 py-2 text-sm font-bold text-white transition hover:bg-academic-rose">Xem chi tiết</button>
                 <button type="button" onClick={(event) => openPreview(event, project.report, 'pdf')} disabled={unavailable(project.report) || notRequired(project.report)} className="icon-button disabled:cursor-not-allowed disabled:opacity-35" aria-label={`Xem báo cáo ${project.title}`}><FileText size={18} /></button>
               </div>
           </article>

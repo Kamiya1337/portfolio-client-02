@@ -21,14 +21,14 @@ Việc làm portfolio bằng web cũng giúp em luyện thêm kỹ năng trình 
       </article>
 
       <div className="grid gap-6 md:grid-cols-2">
-        <article data-reveal className="reveal soft-card hover-lift rounded-2xl bg-academic-ivory p-7">
+        <article data-reveal className="reveal soft-card hover-lift rounded-2xl bg-white p-7">
           <span className="section-kicker">Thử thách</span>
           <h3 className="mt-3 text-xl font-bold">Khó khăn gặp phải</h3>
           <p className="mt-4 text-justify text-sm leading-7 text-academic-muted">
             Khó nhất với em không phải là viết từng báo cáo, mà là gom tất cả lại thành một sản phẩm hoàn chỉnh. Khi đưa lên web, em phải chỉnh lại bố cục, màu sắc, phần minh chứng, bảng rubric và cả trang in PDF. Trong quá trình làm, em có dùng AI để hỗ trợ viết code, gợi ý giao diện và sửa nội dung. Tuy nhiên, em không dùng nguyên mọi thứ AI tạo ra. Em vẫn phải chạy thử, kiểm tra, chỉnh lại phần sai và thay các nội dung chung chung bằng thông tin thực tế của mình.
           </p>
         </article>
-        <article data-reveal className="reveal soft-card hover-lift rounded-2xl bg-academic-blush p-7">
+        <article data-reveal className="reveal soft-card hover-lift rounded-2xl bg-white p-7">
           <span className="section-kicker">Next steps</span>
           <h3 className="mt-3 text-xl font-bold">Kế hoạch hoàn thiện</h3>
           <p className="mt-4 text-justify text-sm leading-7 text-academic-muted">
@@ -37,8 +37,8 @@ Việc làm portfolio bằng web cũng giúp em luyện thêm kỹ năng trình 
         </article>
       </div>
 
-      <article data-reveal className="reveal outcome-glow rounded-3xl bg-academic-deep-rose p-16 text-center text-black md:p-10">
-        <h3 className="text-xl font-extrabold text-academic-deep-rose">Cam kết Liêm chính Học thuật</h3>
+      <article data-reveal className="reveal outcome-glow rounded-3xl bg-academic-blush p-32 text-center text-white md:p-10">
+        <h3 className="text-xl font-extrabold text-black">Cam kết Liêm chính Học thuật</h3>
         <p className="mx-auto mt-4 max-w-3xl whitespace-pre-line text-sm italic leading-7 text-black/85">
           {`Em, Nguyễn Thị Minh Anh, cam kết các báo cáo và nội dung trong portfolio này phản ánh quá trình học tập và thực hành của bản thân. Em có sử dụng AI như một công cụ hỗ trợ, chủ yếu để gợi ý cách trình bày, sửa code và kiểm tra nội dung.
 
