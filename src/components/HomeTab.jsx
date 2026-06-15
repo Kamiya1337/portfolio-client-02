@@ -135,7 +135,7 @@ export default function HomeTab() {
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {[
-            ['Profile', 'Trọng tâm học tập', 'Ngôn ngữ Hàn Quốc, văn hóa Hàn Quốc và năng lực giao tiếp trong môi trường học thuật hiện đại.'],
+            ['Profile', 'Trọng tâm học tập', 'Ngôn ngữ Anh, văn hóa Anh và năng lực giao tiếp trong môi trường học thuật hiện đại.'],
             ['Objective', 'Mục tiêu học phần', 'Thành thạo công cụ số, biết đánh giá thông tin và sử dụng AI như một trợ lý học tập có trách nhiệm.'],
             ['Purpose', 'Lý do xây dựng portfolio', 'Hệ thống hóa sản phẩm, minh chứng tiến bộ và nhìn lại hành trình phát triển kỹ năng.'],
             ['Skills', 'Kỹ năng mũi nhọn', student.skills.join(' · ')],
